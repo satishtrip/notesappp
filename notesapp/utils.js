@@ -1,8 +1,11 @@
-surname = require('./hello.js')
+
 console.log('utils.js')
 const naam = 'satish'
 
-console.log(surname)
+const mul = function (x, y) {
+    return x * y
+
+}
 
 
-module.exports = naam 
+module.exports = mul

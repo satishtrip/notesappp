@@ -1,7 +1,5 @@
-op = require('./utils.js')
+const mul = require('./utils.js')
 
-const sn = 'Tripathi'
+const prod = mul(6, -5)
 
-console.log(op)
-
-module.exports = sn
+console.log(prod)
