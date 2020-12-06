@@ -1,5 +1,6 @@
-const mul = require('./utils.js')
+appp = require('./nts.js')
 
-const prod = mul(6, -5)
+const prod = appp()
 
 console.log(prod)
+console.log("function has been called")
