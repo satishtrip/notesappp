@@ -1,3 +1,4 @@
+const fs = require('fs')
 
 
 const book = {
@@ -5,8 +6,13 @@ const book = {
     author: " satish"
 }
 
-const bookJSON = JSON.stringify(book)
-console.log(bookJSON)
+// const bookJSON = JSON.stringify(book)
+// console.log(bookJSON)
+// fs.writeFileSync('1-json.json',bookJSON)
 
-const parsedData = JSON.parse(bookJSON)
-console.log(parsedData.author)
+// const parsedData = JSON.parse(bookJSON)
+// console.log(parsedData.author)
+const dataBuffer = fs.readFileSync('1-json.json')
+// const dataJSON = dataBuffer.toString()
+// // const data  = JSON.parse(dataJSON)
+console.log(dataBuffer)
