@@ -27,3 +27,4 @@ const add = (a, b, callBack)=> {
 add(1, 4 ,(sum) => { 
     console.log(sum)
 })
+
